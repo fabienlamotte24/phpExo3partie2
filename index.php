@@ -7,9 +7,12 @@
   <body>
     <p>
 <?php
+/*Les variables*/
   $age = 26;
   $gender = 'femme';
+  /*Condition switch pour gérer plusieurs cas*/
   switch($age && $gender){
+    /*Gestion de tout les cas demandé*/
     case $age >= 18 && $gender == 'homme':
     echo 'tu es un homme majeur';
     break;
